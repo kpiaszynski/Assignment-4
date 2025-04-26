@@ -1,0 +1,72 @@
+  /* Styling for the button */
+  .btn-icon {
+    background-color: rgb(163, 163, 255); 
+    color: white; /* White icon */
+    border: none;
+    padding: 10px 10px;
+    font-size: 20px; /* Icon size */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .rating {
+  display: inline-flex; /* Ensure the stars are aligned in a row */
+  gap: 0; /* Remove any space between stars */
+}
+.rating i.hover {
+  color: #ffee00; /* Yellow color on hover */
+}
+
+/* When the rating is clicked (active state) */
+.rating i.selected {
+  color: #ffee00; /* Yellow color when selected */
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+.px-3 {
+  text-align: center;
+}
+
+.table {
+  font: Helvetica; border-collapse: collapse; width: 98%; margin-left: auto; margin-right: auto;
+} 
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.table tr td:nth-child(1){
+  background-color: rgb(163, 163, 255);
+}
+
+.table tr td:nth-child(2){
+  text-align: center;
+  background-color: rgb(206, 169, 255);
+}
+
+.table tr td:nth-child(3){
+  text-align: center;
+  background-color: rgb(163, 163, 255);
+  width: 25%;
+}
+
+.table tr td:nth-child(4){
+  text-align: center;
+  width: 19%;
+  background-color: rgb(206, 169, 255);
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkblue;
+  color: white;
+}
