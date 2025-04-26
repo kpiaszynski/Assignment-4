@@ -4,6 +4,8 @@
 ## Synopsis   
 I created a movie watchlist app in which a movie is described with a title, genre, and optional star rating system for once you have watched the movie. The add movie button is at the top of the page, with update and delete buttons appearing after an entry gets logged. Entries are displayed in a table format
 
+## Unique to Assignment 4        
+There is a new toggle-able button for sign up or sign in. When not needed, simply hide it away. There are now more folders with database connections and authentication for proper user log in. These features do not all work together overall, but it includes database connection settings, database models, authentication handlers, password encryptions, routing, and a frontend aspect.
 
 ### Initializing (Windows)
 To initialize, first create a virtual environment with:    
@@ -36,4 +38,4 @@ An IIFE (Immediately Invoked Function Expression) is used to display the stored 
 ### Special Notes       
 There are a few 'quality of life' additions. Firstly, you cannot enter a movie without a title. If the genre is unknown, you can easily find it with an online engine search, but if you do not know the title you may have a much harder time finding you movie just off of "Romance" or "Action." If attempted to enter a movie without a title, an alert will pop up reminding you of the forgotten title. The best quality of life addition are the stars that react to mouse events. Hovering over a star rating will turn the blank [white] star to yellow. Moving to the 5th star will incrementally light up the stars as they are passed over. Selecting a star will light it up, along with all previous stars. This is updated to the list as a value 1-5, and looks very pretty.      
 The final mention is the .gitignore file. When using virtual environments it is important to protect your data from others. GitHub (optionally) generates a .gitignore file for whatever specified language you need when initializing a new repository. I used this for this project, but please note that many of the specified items in that file are not used in this project. 
-# Assignment-4
+
